@@ -38,6 +38,12 @@
             }
 
             // komentár
+            $futbal = array("lopta","offside","goal");
+            echo("<br>");
+
+            foreach($futbal as $football){
+                echo "Football: ". $football. "<br>";
+            }
             
     ?>
 </body>
